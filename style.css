@@ -1,0 +1,37 @@
+h2 {
+    color: orange;
+}
+
+body {
+    background-color: #305050;
+    color: white;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+}
+
+header {
+    border-bottom: 1px solid grey;
+}
+
+footer {
+    border-top: 1px solid grey;
+}
+
+#nome-usuário {
+    font-weight: bold;
+}
+
+.texto-inglês {
+    font-style: italic;
+}
+
+/* Tema claro */
+body.tema-claro {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+body.tema-claro header,
+body.tema-claro footer {
+    border-color: #ccc;
+}
